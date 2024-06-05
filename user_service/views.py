@@ -1,6 +1,5 @@
 from wsgiref.validate import validator
 from django.shortcuts import get_object_or_404
-from psycopg2 import IntegrityError
 from rest_framework import viewsets, permissions, status, generics
 from rest_framework.exceptions import PermissionDenied
 from django.contrib.auth import get_user_model
