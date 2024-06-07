@@ -26,7 +26,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/4.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = (os.getenv("SECRET_KEY"),)
+SECRET_KEY = "j$m!!vo#3n)irg#x!tx79m*yu%9&22tjip0i&_-7iddl=e=oq)"
 
 ALLOWED_HOSTS = ["*"]
 CORS_ORIGIN_ALLOW_ALL = True
@@ -196,7 +196,7 @@ SIMPLE_JWT = {
     "ACCESS_TOKEN_LIFETIME": timedelta(minutes=60),
     "REFRESH_TOKEN_LIFETIME": timedelta(days=1),
     "UPDATE_LAST_LOGIN": True,
-    "SIGNING_KEY": os.getenv("SIGNING_KEY"),
+    "SIGNING_KEY": "j$m!!vo#3n)irg#x!tx79m*yu%9&22tjip0i&_-7iddl=e=oq)",
 }
 SWAGGER_SETTINGS = {
     "SECURITY_DEFINITIONS": {
