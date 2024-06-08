@@ -80,6 +80,11 @@ MIDDLEWARE = [
     "django.middleware.clickjacking.XFrameOptionsMiddleware",
 ]
 
+CORS_ALLOWED_ORIGINS = [
+    "https://olla-lms.vercel.app",
+    "http://localhost:3000",  # if you are testing locally
+]
+
 REST_FRAMEWORK = {
     "DEFAULT_AUTHENTICATION_CLASSES": (
         "rest_framework_simplejwt.authentication.JWTAuthentication",
