@@ -85,6 +85,8 @@ CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",  # if you are testing locally
 ]
 
+CORS_ALLOW_ALL_ORIGINS = True
+
 REST_FRAMEWORK = {
     "DEFAULT_AUTHENTICATION_CLASSES": (
         "rest_framework_simplejwt.authentication.JWTAuthentication",
