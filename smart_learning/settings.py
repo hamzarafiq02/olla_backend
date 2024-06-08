@@ -28,7 +28,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = "j$m!!vo#3n)irg#x!tx79m*yu%9&22tjip0i&_-7iddl=e=oq)"
 
-ALLOWED_HOSTS = ["olla-lms.vercel.app/"]
+ALLOWED_HOSTS = ['*']
 CORS_ORIGIN_ALLOW_ALL = True
 
 # SECURITY WARNING: don't run with debug turned on in production!
